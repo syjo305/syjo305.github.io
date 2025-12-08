@@ -21,7 +21,7 @@ body {
 }
 
 html, body {
-    height: 100%;
+    height: 840px;
 
     
     background-image: url("https://d2w9rnfcy7mm78.cloudfront.net/41447398/original_9e7d87e88f444d8ff4be1af30a6102fb.png?1764402106?bc=0");
@@ -38,15 +38,15 @@ h1 {
     font-family: cursive;
     font-size: pt;
     color: ;
-    margin-bottom: 2%;
-    margin-left: 2%;
+    margin-bottom: 30px;
+    margin-left: 10px;
 }
 
 
 p {
     line-height: ;
     word-break: ;
-    margin-left: 10%;
+    margin-left: 10px;
 }
 
 
@@ -56,10 +56,10 @@ p {
     padding: 0;
     margin: 0;
     display: flex;
-    gap: 5%;
+    gap: 15px;
     text-align: center;
-    top: 3%;
-    left: 40%;
+    top: 20px;
+    left: 430px;
 
 
     justify-content: center;
@@ -99,21 +99,13 @@ span {
     border: navy 5px dotted;
 }*/
 
-.hamburger{
-    position: absolute;
-    width: 100px;
-    height: 150px;
-    left: 94%;
-    margin-top: -7%;
-
-}
 
 .korea {
     position: absolute;
     width: 30px;
     height: 50px;
-    left:39.6%;
-    margin-top: 17%;
+    left: 582px;
+    margin-top: 253px;
 }
 
 .korea:hover {
@@ -125,8 +117,8 @@ span {
     position: absolute;
     width: 31px;
     height: 53px;
-    left:71.5%;
-    margin-top: 16.5%;
+    left:1053px;
+    margin-top: 245px;
     transform: rotate(-11deg);
 }
 
@@ -140,8 +132,8 @@ span {
     position: absolute;
     width: 30px;
     height: 50px;
-    left:73%;
-    margin-top: 17.3%;
+    left:1075px;
+    margin-top: 255px;
     transform: rotate(-17deg);
 }
 
@@ -178,8 +170,8 @@ button {
     position: absolute;
     width: 50px;
     height: 33px;
-    left: 95%;
-    margin-top: -5.5%;
+    left: 1400px;
+    margin-top: -80px;
     border-radius: 20%;
 }
 
