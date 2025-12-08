@@ -4,17 +4,190 @@
  box-sizing: border-box;
 }
 
-@media screen and (max-width: 704px) {
-    
+
+table, th, tr, td {
+    border: 5px chocolate solid;
+    border-collapse: collapse;
+    width: 200px;
+    height: 20px;
 }
 
 
 
-.contact {
-	position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: auto;
+body {
+ margin : 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+
+    
+    background-image: url("https://d2w9rnfcy7mm78.cloudfront.net/41447398/original_9e7d87e88f444d8ff4be1af30a6102fb.png?1764402106?bc=0");
+    background-size: cover;
+    background-position: center;
+    }
+
+    @media screen and (max-width: 704px) {
+    
+    }
+
+
+h1 {
+    font-family: cursive;
+    font-size: pt;
+    color: ;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+
+p {
+    line-height: ;
+    word-break: ;
+    margin-left: 10px;
+}
+
+
+.horizontal-list {
+    position: absolute;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 15px;
     text-align: center;
+    top: 20px;
+    left: 30%;
+
+
+    justify-content: center;
+
+    margin-bottom: ;
+}
+
+.gate {
+
+    position: relative;
+    bottom: -610px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+
+span {
+    background-color: greenyellow;
+}
+
+.red {
+    background-color: deeppink;
+}
+
+
+.yo {
+    background-color: green;
+}
+
+
+.nobullet {
+     list-style: none;
+}
+
+
+/*    border-radius: 50%;
+    border: navy 5px dotted;
+}*/
+
+.hamburger{
+    position: absolute;
+    width: 100px;
+    height: 150px;
+    left: 94%;
+    margin-top: -7%;
+
+}
+
+.korea {
+    position: absolute;
+    width: 30px;
+    height: 50px;
+    left:39.6%;
+    margin-top: 17%;
+}
+
+.korea:hover {
+    background-color: darkblue;
+    border-radius: 50%;
+}
+
+.cali {
+    position: absolute;
+    width: 31px;
+    height: 53px;
+    left:71.5%;
+    margin-top: 16.5%;
+    transform: rotate(-11deg);
+}
+
+.cali:hover {
+    background-color: darkblue;
+    border-radius: 50%;
+}
+
+
+.ari {
+    position: absolute;
+    width: 30px;
+    height: 50px;
+    left:73%;
+    margin-top: 17.3%;
+    transform: rotate(-17deg);
+}
+
+.ari:hover {
+    background-color: darkblue;
+    border-radius: 50%;
+}
+
+
+
+div {
+    position: absolute;
+    width: px;
+    height: px;
+    background-color: ;
+    border: ;
+    border-radius: %;
+}
+
+/*table, th, tr, td {
+    border: 5px chocolate solid;
+    border-collapse: collapse;
+    width: 200px;
+    height: 20px;
+}
+*/
+
+button:hover {
+    background-color: gray;
+    border: 3px black solid;
+}
+
+button {
+    position: absolute;
+    width: 50px;
+    height: 33px;
+    left: 95%;
+    margin-top: -5.5%;
+    border-radius: 20%;
+}
+
+a:hover;
+
+footer
+
+
+@media screen and (max-width: 704px) {
+    
 }
