@@ -21,7 +21,7 @@ body {
 }
 
 html, body {
-    height: 840px;
+    height: 100%;
 
     
     background-image: url("https://d2w9rnfcy7mm78.cloudfront.net/41447398/original_9e7d87e88f444d8ff4be1af30a6102fb.png?1764402106?bc=0");
@@ -99,6 +99,14 @@ span {
     border: navy 5px dotted;
 }*/
 
+.hamburger{
+    position: absolute;
+    width: 100px;
+    height: 150px;
+    left: 94%;
+    margin-top: -7%;
+
+}
 
 .korea {
     position: absolute;
