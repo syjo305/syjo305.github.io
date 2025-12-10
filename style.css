@@ -95,10 +95,9 @@ span {
 }
 
 
-/*    border-radius: 50%;
+/*border-radius: 50%;
     border: navy 5px dotted;
-}*/
-
+} 
 .hamburger{
     position: absolute;
     width: 100px;
@@ -106,14 +105,15 @@ span {
     left: 94%;
     margin-top: -7%;
 
-}
+}*/
+
 
 .korea {
     position: absolute;
     width: 30px;
     height: 50px;
     left: 582px;
-    margin-top: 253px;
+    top: 350px;
 }
 
 .korea:hover {
@@ -121,12 +121,28 @@ span {
     border-radius: 50%;
 }
 
+.label {
+    position: absolute;
+    left: 575px;
+    top: 320px;
+    font-weight: bold;
+    color: darkblue;
+    background-color: white;
+    opacity: 0;
+    transition: opacity 0.2s;
+    pointer-events: none;
+}
+
+.korea:hover + .label {
+    opacity: 1;
+}
+
 .cali {
     position: absolute;
     width: 31px;
     height: 53px;
     left:1053px;
-    margin-top: 245px;
+    top: 346px;
     transform: rotate(-11deg);
 }
 
@@ -135,13 +151,28 @@ span {
     border-radius: 50%;
 }
 
+.clabel {
+    position: absolute;
+    left: 1035px;
+    top: 316px;
+    font-weight: bold;
+    color: darkblue;
+    background-color: white;
+    opacity: 0;
+    transition: opacity 0.2s;
+    pointer-events: none;
+}
+
+.cali:hover + .clabel {
+    opacity: 1;
+}
 
 .ari {
     position: absolute;
     width: 30px;
     height: 50px;
     left:1075px;
-    margin-top: 255px;
+    top: 356px;
     transform: rotate(-17deg);
 }
 
@@ -149,6 +180,30 @@ span {
     background-color: darkblue;
     border-radius: 50%;
 }
+
+.alabel {
+    position: absolute;
+    left: 1065px;
+    top: 326px;
+    font-weight: bold;
+    color: darkblue;
+    background-color: white;
+    opacity: 0;
+    transition: opacity 0.2s;
+    pointer-events: none;
+}
+
+.ari:hover + .alabel {
+    opacity: 1;
+}
+
+
+.korea:hover,
+.cali:hover,
+.ari:hover {
+    cursor: url("https://d2w9rnfcy7mm78.cloudfront.net/41707787/original_742ef8fe5ff25c6db3ee1c0dfd280794.png?1765375610?bc=0") 10 10, auto;
+}
+
 
 
 
